@@ -39,7 +39,7 @@ This Python program scans running processes in Microsoft Windows environment for
 	- Command to only allow processes with Microsoft Signed Binaries: py dfor740_final_process_sheriff_args -p 123456 -s 3 -t M
 	- Command to run the program as background process and allow processes with all signed binaries: pythonw dfor740_final_process_sheriff_args -p 123456 -s 3 -t A
 
-# Obtaining Hash List:
+# Obtaining Hash Lists:
 	- The hash list can be built by hashing a clean system and adding any binaries that would be normally running in the system. 
 	- There are free and pre-built hash lists provided by the National Institute of Standards and Technology (NIST), https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrl/nsrl-download/current-rds.
 	- There are commercials solutions that provide hash lists to be used for applications similar to this program, https://www.hashsets.com/.
