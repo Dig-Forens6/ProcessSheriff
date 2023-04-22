@@ -35,9 +35,10 @@ This Python program scans running processes in Microsoft Windows environment for
 	'-t' switch is used to provide the scan mode, 'M' option only allows processes with Microsoft signed binaries and 'A' option allows processes with any signed binaries.
 	
 # Usage: Following are command examples
-	- Command to show help menu: py dfor740_final_process_sheriff_args -h 
-	- Command to only allow processes with Microsoft Signed Binaries: py dfor740_final_process_sheriff_args -p 123456 -s 3 -t M
-	- Command to run the program as background process and allow processes with all signed binaries: pythonw dfor740_final_process_sheriff_args -p 123456 -s 3 -t A
+	- Command to show help menu: py dfor740_final_process_sheriff_args.py -h 
+	- Command to only allow processes with Microsoft signed binaries: py dfor740_final_process_sheriff_args.py -p 123456 -s 3 -t M
+	- Command to allow processes with all signed binaries: py dfor740_final_process_sheriff_args.py -p 123456 -s 3 -t A
+	- Command to run the program as background process: pythonw dfor740_final_process_sheriff_args.py -p 123456 -s 3 -t A
 
 # Obtaining Hash Lists:
 	- The hash list can be built by hashing a clean system and adding any binaries that would be normally running in the system. 
