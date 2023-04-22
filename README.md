@@ -17,7 +17,7 @@ This Python program scans running processes in Microsoft Windows environment for
 	- Telephone numbers to be used as source and destination for the alert messages. 
 	- A file containing a list of hashes of whitelisted binaries. 
 	- Third-party libraries to be installed. 
-	- Sigcheck – Sysinternals must be added in the same directory as the script file. 
+	- Sigcheck – Sysinternals must be added in the same directory as the script file, https://learn.microsoft.com/en-us/sysinternals/downloads/sigcheck 
 	
 # Required Libraries: 
 	- psutil  
