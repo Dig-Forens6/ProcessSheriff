@@ -1,5 +1,5 @@
 # Project Name: 
-ProcessSheriff, dfor740_final_process_sheriff_args.py
+ProcessSheriff
 
 # dfor740_final_process_sheriff_args.py : 
 This Python program scans running processes in Microsoft Windows environment for unsigned or non-whitelisted binaries.
