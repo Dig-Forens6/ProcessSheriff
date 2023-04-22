@@ -43,3 +43,6 @@ This Python program scans running processes in Microsoft Windows environment for
 	- The hash list can be built by hashing a clean system and adding any binaries that would be normally running in the system. 
 	- There are free and pre-built hash lists provided by the National Institute of Standards and Technology (NIST), https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrl/nsrl-download/current-rds.
 	- There are commercials solutions that provide hash lists to be used for applications similar to this program, https://www.hashsets.com/.
+
+# NOTE: 
+The uploaded copy of the Python script is missing Twilio SID, Twilio Token, and phone numbers. Please add that informaiton before utlizing the sript. 
