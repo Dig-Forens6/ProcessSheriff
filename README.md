@@ -8,8 +8,8 @@ This Python program scans running processes in Microsoft Windows environment sea
 	- Scanning all running processes using psutil library. 
 	- Determining binary path for each running process.
 	- Checking whether a binary file was signed by Microsoft or other entities.
-	- If binary file is not signed, it would be hashed and compared to whitelisted binaries. 
-	- Terminating any process that has an unsigned binary or not part of the whitelisted binaries.
+	- If a binary file is not signed, the binary hash would be compared to the whitelisted binaries. 
+	- Terminating processes that have unsigned binaries or the binary hashes did not match the whitelisted binaries.
 	- Sending alerts when a process has an unsigned binary or did not match the whitelisted binaries.
 
 # Requirements: 
