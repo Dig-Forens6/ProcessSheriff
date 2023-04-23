@@ -45,5 +45,6 @@ This Python program scans running processes in Microsoft Windows environment sea
 	- There are free and pre-built hash lists provided by the National Institute of Standards and Technology (NIST), https://www.nist.gov/itl/ssd/software-quality-group/national-software-reference-library-nsrl/nsrl-download/current-rds.
 	- There are commercials solutions that provide hash lists to be used for applications similar to this program, https://www.hashsets.com/.
 
-# NOTE: 
-The copy of the Python script uploaded to GitHub is missing Twilio SID, Twilio Token, and phone numbers. Please add that informaiton before utlizing the provided sript. 
+# NOTES: 
+	- The copy of the Python script uploaded to GitHub is missing Twilio SID, Twilio Token, and phone numbers. Please add that informaiton before utlizing the provided sript. 
+	- The encrypted hash list path included in the provided script is C:\Users\dfe\Desktop\script\hash_list_Win10_final.txt
