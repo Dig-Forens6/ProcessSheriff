@@ -1,7 +1,7 @@
 # Project Name: 
 ProcessSheriff
 
-# process_sheriff_args.py : 
+# process_sheriff.py : 
 This Python program scans running processes in Microsoft Windows environment searching for unsigned or non-whitelisted binaries.
 
 # Description: This program has the following functionalities
