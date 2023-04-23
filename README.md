@@ -13,6 +13,7 @@ This Python program scans running processes in Microsoft Windows environment sea
 	- Sending alerts when a process has an unsigned binary or did not match the whitelisted binaries.
 
 # Requirements: 
+	- This program must be executed in an Administrator command prompt
 	- The script requires Twilio SID and Token to be added to the code. 
 	- Telephone numbers to be used as source and destination for the alert SMS messages. 
 	- A file containing a list of hashes of whitelisted binaries. 
