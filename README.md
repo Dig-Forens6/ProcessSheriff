@@ -47,4 +47,4 @@ This Python program scans running processes in Microsoft Windows environment sea
 
 # NOTES: 
 	- The copy of the Python script uploaded to GitHub is missing Twilio SID, Twilio Token, and phone numbers. Please add that informaiton before utlizing the provided sript. 
-	- The encrypted hash list path included in the provided script is C:\Users\dfe\Desktop\script\hash_list_Win10_final.txt
+	- The encrypted hash list path included in the provided script is C:\Users\dfe\Desktop\script\hash_list_Win10_final.txt, and the decrption password is 123456
